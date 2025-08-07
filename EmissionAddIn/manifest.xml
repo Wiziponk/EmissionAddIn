@@ -6,17 +6,14 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="EmissionAddIn"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://wiziponk.github.io/EmissionAddIn/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://wiziponk.github.io/EmissionAddIn/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
-  <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
-  </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+    <SourceLocation DefaultValue="https://wiziponk.github.io/EmissionAddIn/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -28,7 +25,6 @@
             <Description resid="GetStarted.Description"/>
             <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
           </GetStarted>
-          <FunctionFile resid="Commands.Url"/>
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <OfficeTab id="TabHome">
               <Group id="CommandsGroup">
